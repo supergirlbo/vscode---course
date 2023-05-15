@@ -1,0 +1,167 @@
+.navi {
+  position: absolute;
+  width: 1080px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo1 {
+  position: absolute;
+  width: 226px;
+  height: 60px;
+  left: 1px;
+  top: 1px;
+
+  background: url(logo.png);
+}
+
+.h5 {
+  position: absolute;
+  width: 50px;
+  height: 17px;
+  left: 379px;
+  top: 22px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #535353;
+}
+.hero {
+  position: absolute;
+  width: 540px;
+  height: 360px;
+  left: 0px;
+  top: 0px;
+
+  background: url(hero_image.jpg);
+}
+.heading1 {
+  position: absolute;
+  width: 450px;
+  height: 88px;
+  left: 589px;
+  top: 41px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #a479ff;
+}
+
+p. {
+  position: absolute;
+  width: 389px;
+  height: 45px;
+  left: 619px;
+  top: 178px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #535353;
+}
+.button1 {
+  position: absolute;
+  width: 223px;
+  height: 33px;
+  left: 702px;
+  top: 306px;
+
+  background: #a479ff;
+  border-radius: 5px;
+}
+
+.line1 {
+  position: absolute;
+  width: 700px;
+  height: 0px;
+  left: 189px;
+  top: 471px;
+
+  border: 1px dashed #535353;
+}
+
+.team {
+  position: absolute;
+  width: 1080px;
+  height: 529px;
+  left: 0px;
+  top: 522px;
+
+  background: #ffffff;
+}
+
+.heading2 {
+  position: absolute;
+  width: 450px;
+  height: 34px;
+  left: 315px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #a479ff;
+}
+.fig1,
+.fig2,
+.fig3,
+.fig4,
+.fig5 {
+  border: 1px solid black;
+}
+
+.line2 {
+  position: absolute;
+  width: 110px;
+  height: 0px;
+  left: 35px;
+  top: 144px;
+
+  border: 1px dashed #535353;
+}
+
+.logo2 {
+  position: absolute;
+  width: 226px;
+  height: 60px;
+  left: 30px;
+  top: 60px;
+
+  background: url(logo.png);
+}
+
+.foot {
+  position: absolute;
+  width: 1080px;
+  height: 180px;
+  left: 0px;
+  top: 1095px;
+
+  background: #535353;
+}
