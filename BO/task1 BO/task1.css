@@ -1,4 +1,4 @@
-.navi {
+nav {
   width: 1080px;
   height: 60px;
   left: 0px;
@@ -12,7 +12,13 @@ header {
   display: flex;
 }
 
-.logo1 {
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logolorem {
   width: 226px;
   height: 60px;
   left: 1px;
@@ -21,21 +27,6 @@ header {
   background: url(logo.png);
 }
 
-.h5 {
-  width: 50px;
-  height: 17px;
-  left: 379px;
-  top: 22px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  /* identical to box height */
-
-  color: #535353;
-}
 .hero {
   width: 540px;
   height: 360px;
@@ -44,7 +35,7 @@ header {
 
   background: url(hero_image.jpg);
 }
-.heading1 {
+.headingA {
   width: 450px;
   height: 88px;
   left: 589px;
@@ -61,7 +52,7 @@ header {
   color: #a479ff;
 }
 
-p. {
+p {
   width: 389px;
   height: 45px;
   left: 619px;
@@ -76,7 +67,8 @@ p. {
 
   color: #535353;
 }
-.button1 {
+
+.button {
   width: 223px;
   height: 33px;
   left: 702px;
@@ -86,11 +78,12 @@ p. {
   border-radius: 5px;
 }
 
-.fig {
-  float: right;
+figure {
+  display: flex;
 }
 
-.line1 {
+.line {
+  position: absolute;
   width: 700px;
   height: 0px;
   left: 189px;
@@ -107,7 +100,7 @@ p. {
   background: #ffffff;
 }
 
-.heading2 {
+.headingB {
   width: 450px;
   height: 34px;
   left: 315px;
@@ -125,15 +118,20 @@ p. {
 
   color: #a479ff;
 }
-.fig1,
-.fig2,
-.fig3,
-.fig4,
-.fig5 {
+
+.member {
+  width: 100px;
+  height: 100px;
+  left: 38px;
+  top: 13px;
+  background: url(face-icon-png-4282.png);
+}
+
+.fig {
   border: 1px solid black;
 }
 
-.line2 {
+.lineteam {
   width: 110px;
   height: 0px;
   left: 35px;
@@ -146,13 +144,17 @@ p. {
   width: 1080px;
   background: #535353;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 section {
   display: flex;
+  flex-wrap: wrap;
+  flex: 200px;
 }
 
-.logo2 {
+.logoloremfoot {
   width: 226px;
   height: 60px;
   left: 30px;
@@ -165,8 +167,6 @@ h4 {
   font-weight: bold;
 }
 
-.about {
-}
-
-.contact {
+ul {
+  color: #ffffff;
 }
