@@ -87,12 +87,8 @@ nav {
 .team-container {
   display: flex;
   flex-direction: column;
+  margin: auto;
   width: 1080px;
-  height: 529px;
-  top: 522px;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
 
   background: #ffffff;
 }
