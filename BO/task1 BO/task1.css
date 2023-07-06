@@ -1,8 +1,5 @@
 header {
-  width: 1080px;
   height: 60px;
-  left: 0px;
-  top: 0px;
 
   background: rgba(255, 255, 255, 0.76);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -21,10 +18,7 @@ nav {
 }
 
 .hero-img {
-  width: 540px;
   height: 360px;
-  left: 0px;
-  top: 0px;
 
   background: url(hero_image.jpg);
 }
@@ -37,11 +31,10 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-h1 {
-  position: absolute;
-  width: 450px;
+.hero-text-head {
   height: 88px;
   left: 589px;
   top: 77px;
@@ -57,9 +50,7 @@ h1 {
   color: #a479ff;
 }
 
-p {
-  position: absolute;
-  width: 389px;
+.hero-text {
   height: 45px;
   left: 619px;
   top: 222px;
@@ -74,8 +65,7 @@ p {
   color: #535353;
 }
 
-.button {
-  position: absolute;
+.button-hero {
   width: 223px;
   height: 33px;
   left: 702px;
@@ -85,10 +75,9 @@ p {
   border-radius: 5px;
 }
 
-.line {
-  position: absolute;
+.horizontal_dotted_line-team {
+  position: inherit;
   width: 700px;
-  height: 0px;
   left: 189px;
   top: 471px;
 
@@ -100,14 +89,15 @@ p {
   flex-direction: column;
   width: 1080px;
   height: 529px;
-  left: 0px;
   top: 522px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 
   background: #ffffff;
 }
 
-h2 {
-  width: 450px;
+.text-team {
   height: 34px;
   left: 315px;
   top: 30px;
@@ -137,8 +127,7 @@ section {
 
 figure {
   box-sizing: border-box;
-
-  width: 195px;
+  width: 200px;
   height: 200px;
   left: 177px;
   top: 69px;
@@ -158,7 +147,7 @@ figure {
   background: url(face-icon-png-4282.png);
 }
 
-h3 {
+.text-member {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -180,16 +169,15 @@ a {
 
 .horizontal_dotted_line {
   width: 110px;
-  height: 0px;
   left: 35px;
   top: 144px;
 
   border: 1px dashed #535353;
 }
 
-footer {
-  position: absolute;
-  width: 1080px;
+.foot-container {
+  display: flex;
+  justify-content: space-around;
   height: 180px;
   left: 0px;
   top: 1095px;
@@ -198,22 +186,14 @@ footer {
 }
 
 .logofoot {
-  width: 226px;
   height: 60px;
-  left: 0px;
   top: 60px;
   align-self: center;
 
   background: url(logo.png);
 }
 
-.foot-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-h4 {
+.foot-text {
   width: 141px;
   height: 17px;
   align-items: center;
@@ -227,7 +207,7 @@ h4 {
   color: #ffffff;
 }
 
-li {
+.li-text {
   width: 173px;
   height: 20px;
   align-items: center;
